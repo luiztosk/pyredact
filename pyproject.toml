@@ -1,0 +1,19 @@
+[project]
+name = "pyredact"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "PyYAML >= 6.0.3"
+]
+
+[build-system]
+requires = [ "setuptools>=78" ]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+pyredact = "main:main"
+
+[tool.setuptools]
+script-files = [ "src/redact" ]
