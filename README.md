@@ -69,4 +69,4 @@ redact -pi ./sample_files/personal_info.yml ./sample_files/original_text.txt
 
 It will write the redacted file, containing the text in `original_text.txt` minus the replacements, into `./sample_files/REDACTED_original_text.txt`. In our terminal, `less` will show a diff with the changes:
 
-![image](sample_files/diff_result.jpg)
+![image](sample_files/diff_result.png)
