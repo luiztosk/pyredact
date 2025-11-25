@@ -69,4 +69,6 @@ redact -pi ./sample_files/personal_info.yml ./sample_files/original_text.txt
 
 It will write the redacted file, containing the text in `original_text.txt` minus the replacements, into `./sample_files/REDACTED_original_text.txt`. In our terminal, `less` will show a diff with the changes:
 
-![image](sample_files/diff_result.jpg)
+```
+Com a chegada da internet comercial nos anos 90, [-Luiz Gonzaga do Nascimento Júnior-] {+[full name]+} viu uma nova fronteira. Ele percebeu cedo que a identidade digital seria tão importante quanto a identidade civil. Foi um dos primeiros a registrar domínios e estabelecer uma presença online. Seu portfólio pessoal, onde publicava manifestos sobre código aberto e liberdade digital, foi hospedado no domínio [-simples_desejo.dev.-] {+[domain name].+} Até hoje, o [-simples_desejo.dev-] {+[domain name]+} serve como um arquivo histórico de seus pensamentos, contendo tutoriais que vão desde Assembly até as modernas arquiteturas de microsserviços.
+```
